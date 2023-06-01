@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-XbU9jdVfsrsY4MTUgjfsBaNKkv0RY0X8w&usqp=CAU'); */
+    background-size: cover;
+    width: 98%;
+    height: 2000px;
+    background-image: url('https://media.istockphoto.com/id/524384758/photo/light-sky-and-clouds.jpg?s=170667a&w=0&k=20&c=615j9FWs2DHcu0TPnx0t4_ecHpTkZww1R6cDUNel2bY=');
+    border: 12px groove greenyellow;
+
+    
+}
+
+
+.parent{
+    width: 98%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between; 
+    
+   
+    
+}
+.child{
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 30px;
+}
+.child1{
+    width: 25%;
+    height: 150px;
+   padding-left: 25px;
+   padding-top:20px;
+}
+.child2{
+    width: 33%;
+    height: 50px;
+    margin-left:-340px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.child3{
+   margin-right: 10px;
+}
+
+form h1,label{
+  color: rgb(194, 81, 81);
+  /* padding:15px;
+  padding: 15 0 15 0;
+  padding: 15 0;*/
+  
+} 
+input::placeholder{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+
+/* form input{
+    margin-bottom: 10px;
+    text-align: center;
+    color: blue;
+     
+}*/
+.form1{
+    width: 390px;
+    height: 650px;
+    border: 10px dashed red;
+    text-align: center;
+    background-color: white;
+   margin-right: 150px;
+   margin-left: -300px;
+}
+.parent2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+
+
+}
+.headform{
+     padding:  25px 0px;
+     font-size: 30px; 
+     color: rgba(255, 0, 0, 0.56);
+}
+.labelform{
+    font-size: 23px;
+}
+.p{
+    border: 1px solid black;
+    width: 420px;
+    height: 420px;
+    /* padding: 60px; */
+    border-radius: 50% ;
+    border-color: rgb(205, 100, 100);
+    border-width: 10px;
+    /* padding-bottom: 10px; */
+    background-color: rgb(38, 109, 109);
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+    margin-left: -150px;
+    text-decoration: underline;
+    margin-top: 180px;
+}
+.para1{
+    padding: 25px;
+}
+.head1{
+    margin-top: 73px;
+}
+.head2{
+    margin-top: 10px;
+}
+.head3{
+    margin-top: 20px;
+}
+.hr1{
+    margin-left: 18px;
+    margin-right: 19px;
+    margin-top: 10px;
+}
+.hr2{
+    margin-top: 10px;
+}
+.menu {
+    color: white;
+    background-color: black;
+    border: 8px solid red;
+    /* align-items: center; */
+    text-align: center;
+
+    /* margin: 0px auto; */
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50px;
+    margin-left: 400px;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    font-style: italic;
+    border-radius: 45px;
+    /* margin-bottom: 20px; */
+}
+
+.cmenu {
+    border: 5px solid red;
+    /* padding: 30px; */
+    /* height: 300px; */
+    padding-right: 50px;
+    width: 340px;
+    height: 300px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: cyan;
+    margin-bottom: 70px;
+    
+}
+.cmenulast {
+    height: 350px;
+}
+.line3 {
+    /* width: 100%; */
+
+    margin-right: 0px;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    width: 389px;
+    color: green;
+}
+.hrr {
+    /* border: 1px solid ; */
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -20px;
+}
+.mcard h2 {
+    padding: 30px;
+    font-size: 39px;
+    color: blue;
+    font-weight: bold;
+}
+
+.cmenu li {
+
+    /* margin-right: 30px; */
+    margin-left: 50px;
+    padding-right: 30px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: blueviolet;
+    /* padding-bottom: 10px; */
+}
+
+.csection {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.mcard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    /* border: 2px solid red; */
+    /* margin-bottom: 100px; */
+}
