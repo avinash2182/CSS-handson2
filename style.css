@@ -160,7 +160,7 @@ input{
     /* height: 300px; */
     padding-right: 50px;
     width: 340px;
-    height: 300px;
+    height: 280px;
     text-align: center;
     border-radius: 40px;
     background-color: cyan;
@@ -186,10 +186,14 @@ input{
     margin-right: -20px;
 }
 .mcard h2 {
-    padding: 30px;
+    /* padding: 30px; */
+     padding-left: 58px; 
+     padding-top: 15px;
+     padding-bottom: 15px;
     font-size: 39px;
     color: blue;
     font-weight: bold;
+    /* text-align: center; */
 }
 
 .cmenu li {
@@ -200,6 +204,7 @@ input{
     padding-left: 50px;
     font-size: 20px;
     color: blueviolet;
+
     /* padding-bottom: 10px; */
 }
 
